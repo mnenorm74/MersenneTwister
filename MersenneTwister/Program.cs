@@ -1,12 +1,11 @@
-﻿using System;
-
-namespace MersenneTwister
+﻿namespace MersenneTwister
 {
     class Program
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            var generator = new Generator();
+            generator.ShowMenu();
         }
     }
 }
